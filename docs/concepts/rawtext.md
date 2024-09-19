@@ -162,7 +162,7 @@ In the example above, it outputs "`%s joined the game`". For a name to appear in
 `%%s` can be used multiple times. They are filled in the order as shown.
 
 ```json
-/tellraw @a {"rawtext":{"translate":"Hello %%s and %%s", "with":["Steve","Alex"]}]}
+/tellraw @a {"rawtext":[{"translate":"Hello %%s and %%s", "with":["Steve","Alex"]}]}
 #Output in chat:
 #    Hello Steve and Alex
 ```
